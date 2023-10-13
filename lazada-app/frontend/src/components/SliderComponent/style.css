@@ -1,0 +1,16 @@
+.carousel-control-prev-icon {
+    background-color: black;
+  }
+  
+  .carousel-control-next-icon {
+    background-color: black;
+  }
+  
+  /* Style the arrows on hover */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: black;
+}
+  
+  
+  

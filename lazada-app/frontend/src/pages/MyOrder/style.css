@@ -1,0 +1,682 @@
+/*  ---------------------------------------------------*/
+
+/*  Styles for myOrder *.css */
+
+
+.list-header {
+
+    width: 100%;
+
+    background-color: #fff;
+
+    margin-bottom: 12px;
+
+}
+
+ 
+
+.list-header .list-header-container {
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-items: center;
+
+    height: 40px;
+
+    font-size: 12px;
+
+    line-height: 14px;
+
+    color: #757575;
+
+}
+
+ 
+
+.list-header-container .list-header-main {
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-items: center;
+
+    flex-direction: row;
+
+    justify-content: flex-start;
+
+    text-transform: uppercase;
+
+    line-height: 40px;
+
+}
+
+ 
+
+.list-header-main .checkbox-wrap {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-items: center;
+
+}
+
+ 
+
+.next-checkbox {
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+    position: relative;
+
+    width: 16px;
+
+    height: 16px;
+
+    line-height: 14px;
+
+}
+
+ 
+
+.list-header-main .list-header-checkbox {
+
+    width: 16px;
+
+    height: 16px;
+
+    margin-right: 16px;
+
+}
+
+ 
+
+.next-checkbox input[type=checkbox] {
+
+    width: 16px;
+
+    height: 16px;
+
+    margin: 0;
+
+    cursor: pointer;
+
+}
+
+ 
+
+.next-checkbox input[type=checkbox]:hover {
+
+    border: 1px solid #f57224;
+
+    background-color: #fff8da;
+
+    box-shadow: none;  /* This is to remove any default browser styling */
+
+}
+
+ 
+
+.list-header-main .list-header-operations {
+
+    display: flex;
+
+    align-items: center;
+
+    flex: 1;
+
+    flex-direction: row;
+
+    justify-content: flex-end;
+
+    justify-items: center;
+
+    font-size: 12px;
+
+}
+
+ 
+
+.trash-can {
+
+    width: 18px;
+
+    margin-right: 4px;
+
+}
+
+ 
+
+.list-item-container {
+
+    background-color: #fff;
+
+}
+
+ 
+
+.list-header-operations .automation-btn-delete {
+
+    cursor: pointer;
+
+}
+
+.list-header-operations .automation-btn-delete:hover {
+
+    color: #f57224;
+
+}
+
+ 
+
+.list-item-container .list-item-main {
+
+    width: 100%;
+
+    display: table;
+
+    padding: 16px 0;
+
+}
+
+ 
+
+.list-item-main .list-item-left {
+
+    display: table-cell;
+
+    vertical-align: top;
+
+    width: calc(100% - 156px - 139px);;
+
+}
+
+ 
+
+.list-item-left .list-item-checkbox {
+
+    width: 16px;
+
+    height: 16px;
+
+    margin-right: 6px;
+
+    float: left;
+
+    margin-right: 16px;
+
+    margin-top: 32px;
+
+}
+
+ 
+
+.list-item-left .checkbox-wrap {
+
+    height: fit-content;
+
+    width: 16px;
+
+}
+
+ 
+
+.list-item-left .list-item-img {
+
+    position: relative;
+
+    float: left;
+
+    width: 80px;
+
+    height: 80px;
+
+    margin-right: 12px;
+
+}
+
+ 
+
+.list-item-img .item-img {
+
+    width: 80px;
+
+    height: 80px;
+
+}
+
+ 
+
+.list-item-left .list-item-info {
+
+    display: inline-block;
+
+    width: 328px;
+
+    position: relative;
+
+}
+
+ 
+
+.list-item-info .item-info-title {
+
+    display: block;
+
+    width: 100%;
+
+    max-height: 32px;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    padding-left: 0;
+
+    font-size: 14px;
+
+    color: #212121;
+
+    line-height: 16px;
+
+}
+
+ 
+
+.list-item-info .item-info-sku {
+
+        display: block;
+
+        margin-top: 6px;
+
+        font-size: 12px;
+
+        line-height: 16px;
+
+        color: #757575;
+
+}
+
+ 
+
+.list-item-main .list-item-middle {
+
+        display: table-cell;
+
+        vertical-align: top;
+
+        width: 156px;
+
+        max-width: 156px;
+
+        padding-left: 9px;
+
+}
+
+
+
+.list-item-function .list-item-function-wrap {
+
+    margin-top: 8px;
+
+}
+
+
+
+.list-item-function .trash-icon {
+
+    color: #757575;
+
+    cursor: pointer;
+}
+
+
+
+.list-item-function .trash-icon:hover {
+
+    color: #f57224;
+
+}
+
+
+
+.list-item-price .item-price-details {
+
+    margin: 0;
+
+}
+
+ 
+
+.list-item-main .list-item-right {
+
+    display: table-cell;
+
+    vertical-align: top;
+
+    width: 139px;
+
+}
+
+ 
+
+.list-item-right .quantity-btn {
+
+    padding: 0 0;
+
+    width: 36px;
+
+    height: 30px;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    line-height: 0;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+    position: relative;
+
+    transition: all .2s;
+
+    display: block;
+
+    border: 4px solid transparent;
+
+    color: #9e9e9e;
+
+    background-color: #eff0f5;
+
+    border-radius: 0;
+
+}
+
+ 
+
+.list-item-right .quantity-btn:hover {
+
+    color: #ffffff;
+
+    background-color: #dcdcdc;
+
+    border: 4px solid #dcdcdc;
+
+}
+
+ 
+
+.list-item-status .quantity-input {
+
+    width: 44px;
+
+    line-height: 22px;
+
+    height: 30px;
+
+    margin: 0;
+
+    padding: 0;
+
+    font-size: 14px;
+
+    text-align: center;
+
+    border: none;
+
+    outline: none;
+
+    font-weight: 400;
+
+    vertical-align: baseline;
+
+    background-color: transparent;
+
+}
+
+
+
+/* For Chrome, Safari, and Opera */
+
+.list-item-status .quantity-input::-webkit-inner-spin-button,
+.list-item-status .quantity-input::-webkit-outer-spin-button {
+
+    -webkit-appearance: none;
+
+    margin: 0;
+}
+
+
+
+/* For Firefox */
+
+.list-item-status .quantity-input {
+
+    -moz-appearance: textfield;
+
+}
+
+
+
+/* For Internet Explorer 11 */
+
+.list-item-status .quantity-input::-ms-clear {
+
+    display: none;
+
+}
+
+ 
+
+.list-item-status .status-functions {
+
+    display: flex;
+
+    align-items: top;
+
+    justify-content: flex-end;
+
+    flex-direction: row;
+
+}
+
+ 
+
+.list-item-price .currency {
+
+    background-color: #f57224;
+
+    color: #fff;
+
+    border-radius: 3px;
+
+    padding: 2px 4px;
+
+    margin-right: 4px;
+
+}
+
+ 
+
+.list-item-price .price {
+
+    color: #f57224;
+
+}
+
+ 
+
+.row .order-summary-wrapper {
+
+    padding-right: 0;
+
+}
+
+ 
+
+.order-summary-wrapper .order-summary {
+
+    width: 100%;
+
+    background-color: #fff;
+
+}
+
+ 
+
+.order-summary .order-summary-header {
+
+    padding: 10px 0;
+
+}
+
+ 
+
+.order-summary-header .order-summary-title {
+
+    font-size: 18px;
+
+    color: #212121;
+
+    position: relative;
+
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+}
+
+ 
+
+.order-summary .order-summary-body {
+
+    padding: 16px;
+
+}
+
+ 
+
+.order-summary-checkout .order-checkout-row {
+
+    display: flex;
+
+    width: 100%;
+
+    margin-bottom: 18px;
+
+}
+
+ 
+
+.order-checkout-row .checkout-row-label {
+
+    flex: 1;
+
+    display: flex;
+
+    justify-content: flex-start;
+
+    font-size: 14px;
+
+    color: #757575;
+
+    letter-spacing: 0;
+
+    line-height: 21px;
+
+}
+
+ 
+
+.order-checkout-row .checkout-row-value {
+
+    font-size: 16px;
+
+    line-height: 21px;
+
+    text-align: right;
+
+    color: #202020;
+
+    letter-spacing: -.44px;
+
+    vertical-align: middle;
+
+}
+
+ 
+
+.checkout-row-value .currency {
+
+    background-color: #f57224;
+
+    color: #fff;
+
+    border-radius: 3px;
+
+    padding: 2px 4px;
+
+    margin-right: 4px;
+
+}
+
+ 
+
+.order-total .order-checkout-row {
+
+    display: flex;
+
+    width: 100%;
+
+    margin-bottom: 16px;
+
+}
+
+ 
+
+.order-checkout-row .label-total {
+
+    color: #202020;
+
+}
+
+ 
+
+.checkout-btn-wrapper .checkout-btn {
+
+    width: 100%;
+
+    text-align: center;
+
+    color: #fff;
+
+    background-color: #f57224;
+
+    border-radius: 3px;
+
+    cursor: pointer;
+
+    border: none;
+
+}
+
+.checkout-btn-wrapper .checkout-btn:hover {
+
+    background-color: #D0611E;
+
+
+}

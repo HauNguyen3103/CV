@@ -1,0 +1,112 @@
+.card-item {
+    max-width: 300px;
+    min-height: 325px;
+}
+
+.item-img {
+    max-width: 190px;
+    max-height: 190px;
+}
+
+.item-desc {
+    margin: 0;
+    position: relative;
+    font-size: 14px;
+}
+
+.item-desc .item-segment {
+    color: #a90b26;
+    font-size: 12px;
+    line-height: 14px;
+    min-height: 14px;
+    margin: 2px 0;
+}
+
+.item-desc .item-segment .segment-img {
+    min-width: 12px;
+    height: 12px
+}
+
+.item-desc .desc-details {
+    height: 36px;
+    line-height: 18px;
+    color: #212121;
+    white-space: pre-wrap; /* Changed from 'prewrap' to 'pre-wrap' */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.card-item .item-body {
+    max-height: 136px;
+    padding: 4px 8px 10px;
+}
+
+.item-body .item-price {
+    line-height: 22px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.item-body .item-price .item-actual-price {
+    line-height: 22px;
+    height: 22px;
+    font-size: 18px;
+    color: #f57224;
+}
+
+.item-price .item-actual-price .currency {
+    margin-left: 4px;
+    padding: 2px 4px;
+    background-color: #f57224;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.item-body .item-price .item-price-before {
+    margin-top: 4px;
+    margin-right: 4px;
+    line-height: 14px;
+    height: 14px;
+    color: #9e9e9e;
+    font-size: 12px;
+}
+
+.item-price-before .price {
+    text-decoration: line-through;
+}
+
+.item-price-before .currency {
+    margin-left: 4px;
+}
+
+.item-price-before .discount-rate {
+    margin-left: 4px;
+    color: #212121;
+    opacity: 0.8;
+}
+
+.item-body .item-rating {
+    margin-top: 9px;
+}
+
+.item-rating .item-rating-stars {  
+    line-height: 14px;
+    height: 14px;
+    color: #9e9e9e;
+    font-size: 12px;
+}
+
+.rating-stars .star {
+    width: 12px;
+    height: 12px;
+    color: #faca51;
+}
+
+.card-item:hover {
+    /* When hover, adding box shadow and move the card up a little bit */
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+    transform: translateY(-2px);
+    cursor: pointer;
+}

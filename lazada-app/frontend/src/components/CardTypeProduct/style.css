@@ -1,0 +1,5 @@
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns in one row */
+  gap: 20px; /* Gap between cards */
+}

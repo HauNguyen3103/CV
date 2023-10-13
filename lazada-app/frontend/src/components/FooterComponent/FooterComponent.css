@@ -1,0 +1,34 @@
+.footer {
+    width: 100%;
+    min-width: 1400px;
+    border-top: 2px solid #ccc;
+}
+
+.footer .footer-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 3.5rem;
+    align-items: center;;
+}
+
+.footer-payment .payment-methods {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-payment .payment-methods .icons-img {
+    width: 38px;
+    margin-right: 1rem;
+}
+
+.footer-social .social-icons .social-logos {
+    width: 38px;
+    margin-right: 1rem;
+}
+
+.footer-social .social-icons .youtube-logo {
+    width: 70px;
+}
